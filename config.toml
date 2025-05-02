@@ -10,6 +10,9 @@
     source = "dist/ScrollTrigger.js"
     target = "assets/js/modules/gsap/_core/ScrollTrigger.js"
   [[module.mounts]]
+    source = "dist/SplitText.js"
+    target = "assets/js/modules/gsap/_core/SplitText.js"
+  [[module.mounts]]
     source = 'layouts'
     target = 'layouts'
   [[module.mounts]]

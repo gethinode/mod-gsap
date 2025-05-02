@@ -36,7 +36,7 @@ Hinode is a clean blog theme for [Hugo][hugo], an open-source static site genera
 
 ## Notes
 
-This modules exposes only one of the GSAP plugins (ScrollTrigger) by default. All extensions provided by GSAP are available in the `dist` folder. Override or modify the mount configuration in `config.toml` as needed. Register the plugins by adding them to the function `gsap.registerPlugin` in the file `assets/js/modules/gsap/_init.js`.
+This modules exposes only the GSAP plugins (ScrollTrigger and SplitText) by default. All extensions provided by GSAP are available in the `dist` folder. Override or modify the mount configuration in `config.toml` as needed. Register the plugins by adding them to the function `gsap.registerPlugin` in the file `assets/js/modules/gsap/_init.js`.
 
 ## Contributing
 
