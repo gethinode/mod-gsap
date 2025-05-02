@@ -7,8 +7,11 @@
     source = "dist/gsap.js"
     target = "assets/js/modules/gsap/_core/gsap.js"
   [[module.mounts]]
-    source = "dist/gsap.js"
+    source = "dist/ScrollTrigger.js"
     target = "assets/js/modules/gsap/_core/ScrollTrigger.js"
+  [[module.mounts]]
+    source = "dist/SplitText.js"
+    target = "assets/js/modules/gsap/_core/SplitText.js"
   [[module.mounts]]
     source = 'layouts'
     target = 'layouts'
