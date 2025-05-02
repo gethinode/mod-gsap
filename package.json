@@ -22,7 +22,7 @@
     "mod:tidy": "hugo mod tidy",
     "mod:vendor": "rimraf _vendor && hugo mod vendor",
     "postinstall": "npm run -s copy:gsap",
-    "copy:gsap": "cpy 'node_modules/gsap/dist/*.js' '!node_modules/gsap/dist/*.min.js' '!node_modules/gsap/dist/all.js' dist --flat",
+    "copy:gsap": "cpy \"node_modules/gsap/dist/*.js\" \"!node_modules/gsap/dist/*.min.js\" \"!node_modules/gsap/dist/all.js\" dist --flat",
     "test": "npm run -s build",
     "upgrade": "npx npm-check-updates -u && npm run -s mod:update",
     "prepare": "node .husky/install.mjs"
