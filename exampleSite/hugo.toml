@@ -1,15 +1,24 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Test site for mod-template'
+title = 'Test site for mod-gsap'
 
 [module]
-  # Build and serve using local mod-template clone declared in the named Hugo workspace:
-  workspace = "mod-template.work"
+  # Build and serve using local mod-gsap clone declared in the named Hugo workspace:
+  workspace = "mod-gsap.work"
   [[module.imports]]
-    path = "github.com/gethinode/mod-template"
+    path = "github.com/gethinode/mod-gsap"
   [[module.imports.mounts]]
     source = "dist"
     target = "static"
+  [[module.imports.mounts]]
+    source = "dist/gsap.js"
+    target = "static/js/gsap.js"
+  [[module.imports.mounts]]
+    source = "dist/ScrollTrigger.js"
+    target = "static/js/ScrollTrigger.js"
+  [[module.imports.mounts]]
+    source = "dist/ScrollSmoother.js"
+    target = "static/js/ScrollSmoother.js"
   [[module.imports.mounts]]
     source = "layouts"
     target = "layouts"

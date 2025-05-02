@@ -4,6 +4,12 @@
     min = "0.110.0"
     max = ""
   [[module.mounts]]
+    source = "dist/gsap.js"
+    target = "assets/js/modules/gsap/_core/gsap.js"
+  [[module.mounts]]
+    source = "dist/gsap.js"
+    target = "assets/js/modules/gsap/_core/ScrollTrigger.js"
+  [[module.mounts]]
     source = 'layouts'
     target = 'layouts'
   [[module.mounts]]
@@ -12,3 +18,7 @@
   [[module.mounts]]
     source = 'static'
     target = 'static'
+
+[params.modules.gsap]
+  integration = "core"
+  state = "defer"
