@@ -58,6 +58,5 @@ jobs:
         # or any other subfolder that uses Hugo modules
         add-paths: |
           go.mod
-          go.sum
           **/go.mod
           **/go.sum
