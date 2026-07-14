@@ -2,4 +2,4 @@ module github.com/gethinode/mod-gsap/exampleSite
 
 go 1.19
 
-require github.com/gethinode/mod-gsap v1.1.2 // indirect
+require github.com/gethinode/mod-gsap v1.1.3 // indirect
