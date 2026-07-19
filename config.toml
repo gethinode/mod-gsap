@@ -25,3 +25,15 @@
 [params.modules.gsap]
   integration = "core"
   state = "defer"
+  # GSAP's UMD builds do not self-register on window when bundled by
+  # esbuild; expose them explicitly so Hinode's scripts pipeline (and
+  # consumer animation code using bare globals) can resolve them.
+  [[params.modules.gsap.globals]]
+    path = "js/modules/gsap/_core/gsap.js"
+    name = "gsap"
+  [[params.modules.gsap.globals]]
+    path = "js/modules/gsap/_core/ScrollTrigger.js"
+    name = "ScrollTrigger"
+  [[params.modules.gsap.globals]]
+    path = "js/modules/gsap/_core/SplitText.js"
+    name = "SplitText"
