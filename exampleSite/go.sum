@@ -14,3 +14,5 @@ github.com/gethinode/mod-gsap v1.2.0 h1:RYWf3qHeDi8nj0bohYiPo25RwGQcDJDdHVAmJA73
 github.com/gethinode/mod-gsap v1.2.0/go.mod h1:jPR646NT2OuszKS2chVVKkuxxuB8dx8Eh8Ab8imQlk8=
 github.com/gethinode/mod-gsap v1.2.1 h1:YeYQmnxjZckctIXj36I00A0ISId34r+gVWHDyfKTDGE=
 github.com/gethinode/mod-gsap v1.2.1/go.mod h1:jPR646NT2OuszKS2chVVKkuxxuB8dx8Eh8Ab8imQlk8=
+github.com/gethinode/mod-gsap v1.2.2 h1:EU0nwxeEqrpYk/YYlOSBrE85FtZCVdu/rDlpJ8grevM=
+github.com/gethinode/mod-gsap v1.2.2/go.mod h1:jPR646NT2OuszKS2chVVKkuxxuB8dx8Eh8Ab8imQlk8=
