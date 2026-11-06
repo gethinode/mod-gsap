@@ -39,7 +39,7 @@
   },
   "homepage": "https://gethinode.com",
   "dependencies": {
-    "gsap": "^3.15.0"
+    "gsap": "^3.15.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.4",
